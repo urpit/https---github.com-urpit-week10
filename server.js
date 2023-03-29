@@ -12,7 +12,8 @@ myApp.get("/contact", function (req, res) {
   res.sendFile(path.join(__dirname, "/pages/contact.html"));
 });
 myApp.get("/about", function (req, res) {
-  res.sendFile(path.join(__dirname, "/pages/about.html"));
+  // res.sendFile(path.join(__dirname, "/pages/about.html"));
+  res.render("about");
 });
 myApp.get("/help", function (req, res) {
   res.sendFile(path.join(__dirname, "/pages/help.html"));
