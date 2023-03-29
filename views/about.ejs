@@ -8,7 +8,8 @@
   </head>
   <body>
     <h1>About</h1>
-    <% var someData={name:"Hello",age:21,occupation:"developer"} %>
+    <% var
+    someData={name:"Hello",age:21,occupation:"developer",company:'TDBank'} %>
     <table border="1">
       <thead>
         <tr>
@@ -23,6 +24,7 @@
           <td><%=someData.name%></td>
           <td><%=someData.age%></td>
           <td><%=someData.occupation%></td>
+          <td><%=someData.company%></td>
         </tr>
       </tbody>
     </table>
